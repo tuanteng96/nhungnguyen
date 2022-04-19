@@ -65,9 +65,9 @@ export default class ScheduleSpa extends React.Component {
     let slideActive = -1;
     var min = -1;
     var now = new Date().getTime();
-    for (let day = 0; day <= 815; day += 15) {
-      var time = moment("2020-11-05T07:30:00").add(day, "m").format("LT");
-      var timeFull = moment("2020-11-05T07:30:00").add(day, "m").format("LTS");
+    for (let day = 0; day <= 755; day += 15) {
+      var time = moment("2020-11-05T08:30:00").add(day, "m").format("LT");
+      var timeFull = moment("2020-11-05T08:30:00").add(day, "m").format("LTS");
 
       var d = new Date();
       d.setHours(7);
